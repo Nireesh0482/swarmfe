@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  frontend:
+    image: swfe
+    deploy:
+      replicas: 3
+    ports:
+      - "8088:80"
+    
+
+

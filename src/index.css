@@ -1,0 +1,385 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.signin-login-header .ant-page-header-content {
+  font-size: x-large !important;
+  font-weight: bold !important;
+  text-align: center;
+}
+
+.logo {
+  width: 67px;
+  height: 71px;
+  margin: 10px 111px;
+  background-image: url('./images/logo.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.site-layout {
+  background: #fff;
+  /* margin-left: 290px; */
+  min-height: 100vh;
+}
+
+.site-layout-background {
+  min-height: calc(100vh - 158px);
+  padding: 24px;
+  background: #fff;
+}
+
+.ant-layout-header {
+  padding: 0 20px !important;
+}
+
+.site-layout-header {
+  padding: 10px;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  background-color: #072c4f !important;
+  color: #fff !important;
+}
+
+.site-layout-help-header {
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white !important;
+  font-weight: bold;
+}
+
+.user-info {
+  font-size: 14px;
+  color: #fff !important;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+.table-row-dark {
+  font-weight: bold;
+  background-color: #95979e;
+}
+
+.ant-table-thead > tr > th {
+  color: #fff !important;
+  background: #133392 !important;
+  text-align: center !important;
+  font-weight: bold !important;
+}
+
+.ant-table-tbody {
+  background-color: #f4f5f7 !important;
+  text-align: center;
+}
+
+.ant-table-cell {
+  border: 1.5px solid #c9c3c3 !important;
+}
+
+.role-table .ant-table-cell {
+  border: 1.5px solid #c9c3c3 !important;
+  vertical-align: top;
+}
+
+.role-table .ant-table-tbody > tr.ant-table-row:hover > td {
+  background: none !important;
+}
+
+.table-style .ant-table-tbody > tr.ant-table-row:hover > td {
+  /* background: none !important; */
+  background-color: #f4f5f7 !important;
+}
+
+.reports .ant-table-tbody > tr.ant-table-row > td {
+  text-align: left;
+}
+
+.ant-table-cell-fix-left {
+  background-color: #f4f5f7 !important;
+}
+
+.ant-tooltip .ant-tooltip-inner {
+  border: 1px solid #999280;
+  color: #777368;
+  background-color: white;
+  padding: 0px 4px;
+  min-height: 20px;
+  box-shadow: none;
+}
+
+.ant-tooltip-arrow-content {
+  border: 1px solid #777368;
+  background-color: #999280;
+}
+
+.ant-btn {
+  background-color: #133392 !important;
+  color: #fff !important;
+  border-radius: 4px !important;
+}
+
+.ant-btn:hover {
+  background-color: #080a47 !important;
+}
+
+.ant-btn:disabled {
+  background-color: #cccccc !important;
+  color: #666666 !important;
+}
+
+.ant-page-header {
+  padding: 0px !important;
+}
+
+.ant-page-header-content {
+  padding-top: 0px !important;
+  font-size: 32px;
+}
+
+.action-modal {
+  text-align: center;
+}
+
+.pagecenter {
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.login-form-forgot {
+  text-align: center;
+}
+
+.ant-radio-button-checked {
+  background-color: #133392 !important;
+}
+
+.ant-form-item {
+  margin-bottom: 5px !important;
+}
+
+.ant-form-item-required {
+  font-weight: 500;
+}
+
+.steps {
+  padding-left: 15px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.page-header-searchbar-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-header-star-flex {
+  display: flex;
+  align-items: center;
+}
+
+.save-indication {
+  font-size: 8px;
+  color: red !important;
+  margin-left: 3px;
+  margin-bottom: 8px;
+}
+
+.required-icon-flex {
+  display: flex;
+  align-items: flex-start;
+}
+
+.required-indication {
+  font-size: 6px;
+  color: red !important;
+  margin-left: 3px;
+}
+
+.dropdown-btns-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 0px;
+}
+
+.table-border {
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.table-btn-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.report-table-btn-flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.help-icon {
+  font-size: 30px;
+  color: #000 !important;
+}
+
+.role-allocation-container {
+  border: 1px solid black;
+  padding: 30px;
+  margin-top: 16px;
+}
+
+.role-allocation-emp-container {
+  border: 1px solid black;
+  padding: 10px 20px;
+  background-color: #f0f2f5;
+}
+
+.role-allocation-emp-legend {
+  width: 116px;
+  font-size: 15px;
+}
+
+.date-picker .ant-picker-input > input {
+  text-align: center;
+}
+
+.input-no .ant-input-number-input {
+  text-align: center !important;
+}
+
+.role-allocation-btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.claims-page-header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.report-export-excel-btn {
+  float: right;
+  margin-bottom: 10px;
+}
+
+.report-project-details-table {
+  width: 80%;
+}
+
+.report-project-details-table .ant-table-tbody > tr.ant-table-row:hover > td {
+  background: none !important;
+}
+
+.report-no-records-found-msg {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.success-icon {
+  font-size: 50px;
+  color: green !important;
+  margin-bottom: 10px;
+}
+
+.option-icon {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.failure-icon {
+  font-size: 50px;
+  color: red !important;
+  margin-bottom: 10px;
+}
+
+.info-icon {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.ant-table-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.prj-contribution-color-info {
+  width: 10px;
+  height: 10px;
+}
+
+.prj-allocation-costplan-msg {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.prj-allocation-costplan-msg-icon {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.ant-switch {
+  background-color: #133392 !important;
+}
+
+.ant-menu-inline-collapsed-tooltip a {
+  color: #777368 !important;
+}
+
+.avatar-upload-container {
+  position: relative;
+  cursor: pointer;
+  margin: 0 5px 12px 0;
+}
+
+.avatar {
+  transition: all 0.3s;
+}
+
+.upload-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.avatar-upload-container:hover .upload-icon {
+  display: flex;
+  opacity: 1;
+}
